@@ -1,0 +1,13 @@
+# Bỏ qua các tệp class được biên dịch
+*.class
+
+# Bỏ qua thư mục target (được sử dụng bởi Maven)
+target/
+
+# Bỏ qua các tệp log
+*.log
+
+# Bỏ qua thư mục .settings
+.settings/
+#
+node_modules/
