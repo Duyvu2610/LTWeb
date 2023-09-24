@@ -18,7 +18,7 @@
 				</div>
 				<span class="font-bold text-lg">$250.00<span
 					class="text-[#84878B]"> / night</span></span>
-				<button class="px-4 py-2 bg-primary text-white rounded-lg">Book
+				<button class="px-4 py-2 bg-[#316BFF] text-white rounded-lg">Book
 					now</button>
 			</div>
 		</div>
@@ -34,7 +34,7 @@
 				</div>
 				<span class="font-bold text-lg">$250.00<span
 					class="text-[#84878B]"> / night</span></span>
-				<button class="px-4 py-2 bg-primary text-white rounded-lg">Book
+				<button class="px-4 py-2 bg-[#316BFF] text-white rounded-lg">Book
 					now</button>
 			</div>
 		</div>
@@ -50,7 +50,7 @@
 				</div>
 				<span class="font-bold text-lg">$250.00<span
 					class="text-[#84878B]"> / night</span></span>
-				<button class="px-4 py-2 bg-primary text-white rounded-lg">Book
+				<button class="px-4 py-2 bg-[#316BFF] text-white rounded-lg">Book
 					now</button>
 			</div>
 		</div>
@@ -66,7 +66,7 @@
 				</div>
 				<span class="font-bold text-lg">$250.00<span
 					class="text-[#84878B]"> / night</span></span>
-				<button class="px-4 py-2 bg-primary text-white rounded-lg">Book
+				<button class="px-4 py-2 bg-[#316BFF] text-white rounded-lg">Book
 					now</button>
 			</div>
 		</div>
@@ -82,7 +82,7 @@
 				</div>
 				<span class="font-bold text-lg">$250.00<span
 					class="text-[#84878B]"> / night</span></span>
-				<button class="px-4 py-2 bg-primary text-white rounded-lg">Book
+				<button class="px-4 py-2 bg-[#316BFF] text-white rounded-lg">Book
 					now</button>
 			</div>
 		</div>
@@ -98,7 +98,7 @@
 				</div>
 				<span class="font-bold text-lg">$250.00<span
 					class="text-[#84878B]"> / night</span></span>
-				<button class="px-4 py-2 bg-primary text-white rounded-lg">Book
+				<button class="px-4 py-2 bg-[#316BFF] text-white rounded-lg">Book
 					now</button>
 			</div>
 		</div>

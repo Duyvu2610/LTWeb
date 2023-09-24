@@ -28,7 +28,7 @@
 						src="./icons/dropdown.svg" id="dropdown"
 						class="transition-all duration-500 hidden md:block user">
 					<ul
-						class="absolute w-[210px] h-[279px] top-[40px] right-0 rounded-lg py-4 px-2
+						class="absolute w-[240px] h-[279px] top-[40px] right-0 rounded-lg py-4 px-2
 					 border shadow-2xl transition-all duration-500 bg-white my_hidden"
 						id="user_drop_down">
 						<li class=" flex hover:bg-hover py-2 px-4 rounded-md "><a
