@@ -6,12 +6,12 @@
 	<p class="text-lg text-center my-4">The most searched for cities on
 		TripGuide</p>
 	<div class = "grid h-[1300px] md:h-[800px] md:grid-cols-2 md:grid-rows-3 gap-4 md:w-[75%] mx-auto">
-		<div class=" p-4 flex gap-4 bg-white rounded-lg border">
-			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-lg"
+		<div class=" flex gap-4 bg-white rounded-lg border">
+			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-l-lg"
 				width="50%">
-			<div class="flex-1 flex flex-col justify-around">
+			<div class="flex-1 flex flex-col justify-around px-4 py-8">
 				<p class="font-bold text-lg">Manila</p>
-				<div class="flex gap-2">
+				<div class="flex gap-1">
 					<img alt="start" src="./icons/Star.svg" width="14px" height="14px">
 					<p>4.91</p>
 					<p class="text-[#84878B]">(147)</p>
@@ -22,12 +22,12 @@
 					now</button>
 			</div>
 		</div>
-		<div class=" p-4 flex gap-4 bg-white rounded-lg border ">
-			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-lg"
+		<div class=" flex gap-4 bg-white rounded-lg border">
+			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-l-lg"
 				width="50%">
-			<div class="flex-1 flex flex-col justify-around">
+			<div class="flex-1 flex flex-col justify-around px-4 py-8">
 				<p class="font-bold text-lg">Manila</p>
-				<div class="flex gap-2">
+				<div class="flex gap-1">
 					<img alt="start" src="./icons/Star.svg" width="14px" height="14px">
 					<p>4.91</p>
 					<p class="text-[#84878B]">(147)</p>
@@ -38,12 +38,12 @@
 					now</button>
 			</div>
 		</div>
-		<div class=" p-4 flex gap-4 bg-white rounded-lg border ">
-			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-lg"
+		<div class=" flex gap-4 bg-white rounded-lg border">
+			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-l-lg"
 				width="50%">
-			<div class="flex-1 flex flex-col justify-around">
+			<div class="flex-1 flex flex-col justify-around px-4 py-8">
 				<p class="font-bold text-lg">Manila</p>
-				<div class="flex gap-2">
+				<div class="flex gap-1">
 					<img alt="start" src="./icons/Star.svg" width="14px" height="14px">
 					<p>4.91</p>
 					<p class="text-[#84878B]">(147)</p>
@@ -54,12 +54,12 @@
 					now</button>
 			</div>
 		</div>
-		<div class=" p-4 flex gap-4 bg-white rounded-lg border ">
-			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-lg"
+		<div class=" flex gap-4 bg-white rounded-lg border">
+			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-l-lg"
 				width="50%">
-			<div class="flex-1 flex flex-col justify-around">
+			<div class="flex-1 flex flex-col justify-around px-4 py-8">
 				<p class="font-bold text-lg">Manila</p>
-				<div class="flex gap-2">
+				<div class="flex gap-1">
 					<img alt="start" src="./icons/Star.svg" width="14px" height="14px">
 					<p>4.91</p>
 					<p class="text-[#84878B]">(147)</p>
@@ -70,12 +70,12 @@
 					now</button>
 			</div>
 		</div>
-		<div class=" p-4 flex gap-4 bg-white rounded-lg border">
-			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-lg"
+		<div class=" flex gap-4 bg-white rounded-lg border">
+			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-l-lg"
 				width="50%">
-			<div class="flex-1 flex flex-col justify-around">
+			<div class="flex-1 flex flex-col justify-around px-4 py-8">
 				<p class="font-bold text-lg">Manila</p>
-				<div class="flex gap-2">
+				<div class="flex gap-1">
 					<img alt="start" src="./icons/Star.svg" width="14px" height="14px">
 					<p>4.91</p>
 					<p class="text-[#84878B]">(147)</p>
@@ -86,12 +86,12 @@
 					now</button>
 			</div>
 		</div>
-		<div class=" p-4 flex gap-4 bg-white rounded-lg border ">
-			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-lg"
+		<div class=" flex gap-4 bg-white rounded-lg border">
+			<img alt="" src="./images/thuysi.svg" class="object-cover rounded-l-lg"
 				width="50%">
-			<div class="flex-1 flex flex-col justify-around">
+			<div class="flex-1 flex flex-col justify-around px-4 py-8">
 				<p class="font-bold text-lg">Manila</p>
-				<div class="flex gap-2">
+				<div class="flex gap-1">
 					<img alt="start" src="./icons/Star.svg" width="14px" height="14px">
 					<p>4.91</p>
 					<p class="text-[#84878B]">(147)</p>
