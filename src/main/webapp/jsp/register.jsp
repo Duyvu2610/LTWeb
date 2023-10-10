@@ -194,27 +194,18 @@
 					<!-- form -->
 					<form class="space-y-4 md:space-y-6 group font-medium " action="register"
 						method="post" novalidate>
-						<div class="grid grid-cols-2 gap-4 ">
+						
 							<div>
-								<label for="fname"
+								<label for="uname"
 									class="block mb-2 text-sm font-medium text-gray-900">First name <span class = "text-red-700 font-bold">*</span></label> <input type="text" placeholder="Vu"
 									class="mt-1 block w-full px-3 py-2  border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
 	      focus:outline-none focus:border-[#316BFF] focus:ring-1 focus:ring-[#316BFF] bg-gray-50
 	      invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-500 peer
 	    "
-									name="fname" required pattern=".*[a-zA-Z]+.*"/>
+									name="uname" required pattern=".*[a-zA-Z]+.*"/>
 									
 							</div>
-							<div>
-								<label for="lname"
-									class="block mb-2 text-sm font-medium text-gray-900">Last name <span class = "text-red-700 font-bold">*</span></label> <input type="text" placeholder="Nguyen"
-									class="mt-1 block w-full px-3 py-2  border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
-	      focus:outline-none focus:border-[#316BFF] focus:ring-1 focus:ring-[#316BFF] bg-gray-50
-	      invalid:[&:not(:placeholder-shown):not(:focus)]:border-red-500 peer
-	    "
-									name="lname" required pattern=".*[a-zA-Z]+.*"/>
-							</div>
-						</div>
+						
 						<div>
 							<label for="email"
 								class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
@@ -233,7 +224,7 @@
 								
 						</div>
 						<div>
-							<label for="password"
+							<label for="pw"
 								class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password <span class = "text-red-700 font-bold">*</span></label>
 							<input type="password" placeholder="************"
 								class="mt-1 block w-full px-3 py-2  border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400

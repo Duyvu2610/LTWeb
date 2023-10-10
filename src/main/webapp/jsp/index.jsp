@@ -16,13 +16,13 @@
 
 </head>
 <body>
-	<%@ include file="jsp/Header.jsp"%>
-	<jsp:include page="jsp/banner.jsp"/>
-	<jsp:include page="jsp/slider.jsp" />
-	<jsp:include page="jsp/featured_destinations.jsp" />
-	<jsp:include page="jsp/trending_cities.jsp" />
-	<jsp:include page="jsp/explore_world.jsp" />
-	<jsp:include page="jsp/footer.jsp" />
+	<%@ include file="Header.jsp"%>
+	<jsp:include page="banner.jsp"/>
+	<jsp:include page="slider.jsp" />
+	<jsp:include page="featured_destinations.jsp" />
+	<jsp:include page="trending_cities.jsp" />
+	<jsp:include page="explore_world.jsp" />
+	<jsp:include page="footer.jsp" />
 	<script
 		src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
 </body>

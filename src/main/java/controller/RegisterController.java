@@ -42,19 +42,20 @@ public class RegisterController extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		String fname = request.getParameter("fname");
-		String lname = request.getParameter("lname");
+		String userName = request.getParameter("uname");
 		String email = request.getParameter("email");
 		String pw = request.getParameter("pw");
 		String confirmPassword = request.getParameter("confirm-password");
-		User user = new User(lname, fname, lname, email, pw);
+		User user = new User(userName, email, pw, null, null);
 		RequestDispatcher di = null;
 		di = request.getRequestDispatcher("./jsp/register.jsp");
 		if (userService.create(user) && pw.equals(confirmPassword)) {
+			System.out.println("dung");
 			request.setAttribute("status", "success");
 			
 		}else {
 			request.setAttribute("status", "failed");
+			
 	        
 		}
 		di.forward(request, response);

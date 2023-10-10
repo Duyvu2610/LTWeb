@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class DBConnection {
 	public DBConnection() {
-		String url = "jdbc:sqlserver://Nguyen-Duy-Vu\\sqlexpress;databaseName=flight_booking;user=sa;password=duyvu;encrypt=true;trustServerCertificate=true";
+		String url = "jdbc:sqlserver://Nguyen-Duy-Vu\\sqlexpress;databaseName=booking;user=sa;password=duyvu;encrypt=true;trustServerCertificate=true";
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 			Connection connection  = DriverManager.getConnection(url);
@@ -18,7 +18,7 @@ public class DBConnection {
 		}
 	}
 	public Connection getConnection() throws ClassNotFoundException, SQLException {
-		String url = "jdbc:sqlserver://Nguyen-Duy-Vu\\sqlexpress;databaseName=flight_booking;user=sa;password=duyvu;encrypt=true;trustServerCertificate=true";
+		String url = "jdbc:sqlserver://Nguyen-Duy-Vu\\sqlexpress;databaseName=booking;user=sa;password=duyvu;encrypt=true;trustServerCertificate=true";
 		Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
 		return DriverManager.getConnection(url);
 	}

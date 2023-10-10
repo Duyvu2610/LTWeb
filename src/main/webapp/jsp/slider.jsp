@@ -1,6 +1,8 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="utf-8" />
 <title>Swiper demo</title>
@@ -30,7 +32,8 @@
 </head>
 
 <body>
-	<div class="pt-[200px] md:pt-[100px] overflow-hidden md:w-[75%] mx-auto">
+	<div
+		class="pt-[200px] md:pt-[100px] overflow-hidden md:w-[75%] mx-auto">
 		<div class="font-bold text-xl text-center md:text-4xl md:pb-6">Search
 			a best place in the world</div>
 		<p class="text-center">
@@ -41,49 +44,16 @@
 		<!-- Swiper -->
 		<div class="swiper mySwiper ">
 			<div class="swiper-wrapper">
-				<div class="swiper-slide rounded flex-col gap-2 border"
-					style="width: 200px">
-					<img alt="iamge" src="./images/thuysi.svg"
-						class="w-[100px] h-[100px] rounded object-cover">
-					<p class="font-medium text-lg">Batu, East Java</p>
-					<p>86 Destinations</p>
-				</div>
-				<div class="swiper-slide rounded flex-col gap-2 border"
-					style="width: 200px">
-					<img alt="iamge" src="./images/thuysi.svg"
-						class="w-[100px] h-[100px] rounded object-cover">
-					<p class="font-medium text-lg">Batu, East Java</p>
-					<p>86 Destinations</p>
-				</div>
-				<div class="  swiper-slide rounded flex-col gap-2 border"
-					style="width: 200px">
-					<img alt="iamge" src="./images/thuysi.svg"
-						class="w-[100px] h-[100px] rounded object-cover">
-					<p class="font-medium text-lg">Batu, East Java</p>
-					<p>86 Destinations</p>
-				</div>
-				<div class="  swiper-slide rounded flex-col gap-2 border"
-					style="width: 200px">
-					<img alt="iamge" src="./images/thuysi.svg"
-						class="w-[100px] h-[100px] rounded object-cover">
-					<p class="font-medium text-lg">Batu, East Java</p>
-					<p>86 Destinations</p>
-				</div>
-				<div class="  swiper-slide rounded flex-col gap-2 border"
-					style="width: 200px">
-					<img alt="iamge" src="./images/thuysi.svg"
-						class="w-[100px] h-[100px] rounded object-cover">
-					<p class="font-medium text-lg">Batu, East Java</p>
-					<p>86 Destinations</p>
-				</div>
-				<div class="  swiper-slide rounded flex-col gap-2 border"
-					style="width: 200px">
-					<img alt="iamge" src="./images/thuysi.svg"
-						class="w-[100px] h-[100px] rounded object-cover">
-					<p class="font-medium text-lg">Batu, East Java</p>
-					<p>86 Destinations</p>
-				</div>
-
+				<c:forEach var="city" items="${cities}">
+					<div class="swiper-slide rounded flex-col gap-2 border"
+						style="width: 200px">
+						<img alt="iamge" src="./images/thuysi.svg"
+							class="w-[100px] h-[100px] rounded object-cover">
+						<p class="font-medium text-lg">${city.cityName()},
+							${city.country()}</p>
+						<p>${city.destinationNum()}Destinations</p>
+					</div>
+				</c:forEach>
 			</div>
 		</div>
 	</div>

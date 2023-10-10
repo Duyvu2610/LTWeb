@@ -1,11 +1,13 @@
 package entity;
 
+import java.util.Date;
+
 public record User(
 		String userName,
-		String firstName,
-		String lastName,
 		String email,
-		String password
+		String password,
+		Date dob,
+		String gender
 		) {
 
 }

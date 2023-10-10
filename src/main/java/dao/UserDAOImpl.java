@@ -14,15 +14,13 @@ public class UserDAOImpl extends DBConnection implements UserDAO{
 	@Override
 	public boolean insert(User user) {
 		// TODO Auto-generated method stub
-		String query = "insert into User_Infor(user_name, firt_name, last_name, email, password) values(?,?,?,?,?)";
+		String query = "insert into User_Infor(user_name, email, password) values(?,?,?)";
 		try {
 			Connection cn = super.getConnection();
 			PreparedStatement ps = cn.prepareStatement(query);
 			ps.setString(1, user.userName());
-			ps.setString(2, user.firstName());
-			ps.setString(3, user.lastName());
-			ps.setString(4, user.email());
-			ps.setString(5, user.password());
+			ps.setString(2, user.email());
+			ps.setString(3, user.password());
 			ps.executeUpdate();
 			
 			// Đóng kết nối
@@ -35,9 +33,8 @@ public class UserDAOImpl extends DBConnection implements UserDAO{
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-		} finally {
-			return false;
-		}
+		} 
+		return false;
 		
 	}
 
@@ -55,8 +52,7 @@ public class UserDAOImpl extends DBConnection implements UserDAO{
 	        pr.setString(1, email);
 	        try (ResultSet re = pr.executeQuery()) {
 	            if (re.next()) {
-	                User user = new User(re.getString("user_name"), re.getString("firt_name"),
-	                        re.getString("last_name"), re.getString("email"), re.getString("password"));
+	                User user = new User(re.getString("user_name"), re.getString("email"), re.getString("password"), re.getDate("dayOfBirth") , re.getString("sex"));
 	                System.out.println(user);
 	                return user;
 	            } else {
